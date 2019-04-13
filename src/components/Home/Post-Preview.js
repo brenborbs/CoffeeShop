@@ -12,7 +12,7 @@ export default (props) => (
                      className="pull-left img-responsive thumb margin10 img-thumbnail"
                      alt=""
                      />
-                     <article><p>{props.description}</p></article>
+                     <article className="post-preview-desc" ><p>{props.description}</p></article>
                      <p>{props.date}</p>
                      <Link className="btn btn-blog pull-right marginBottom10" to={props.slug} style={{ 
                          color: '#ffffff',

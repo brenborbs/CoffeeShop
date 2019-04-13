@@ -14,10 +14,10 @@ export default class PostList extends React.Component {
        <SEO title="Blog" keywords={[`gatsby`, `application`, `react`]} />
        
         <div className="jumbotron" style={{ textAlign: 'center' }} >
-          <h1 className="display-4">Our Many Stories!</h1>
+          <h1 className="display-4">The Coffee Traveler</h1>
           <p className="lead">Read our stories below to guide you for your next Coffee adventure.</p>
           <hr className="my-4"/>
-          <p>All stories carefully written by our rock star staffs.</p>
+          {/* <p>All stories carefully written by our rock star staffs.</p> */}
         </div>
 
        <div className="container" >
