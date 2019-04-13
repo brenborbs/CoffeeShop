@@ -17,7 +17,7 @@ export default (props) => (
                      <Link className="btn btn-blog pull-right marginBottom10" to={props.slug} style={{ 
                          color: '#ffffff',
                          backgroundColor: '#2d1e1f',
-                         borderColor: '#ff9e09',
+                        //  borderColor: '#ff9e09',
                          borderRadius: '0',
                          marginBottom: '10px',
                      }} >

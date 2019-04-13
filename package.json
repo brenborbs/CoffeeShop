@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "disqus-react": "^1.0.5",
     "dotenv": "^7.0.0",
     "gatsby": "^2.0.105",
     "gatsby-background-image": "^0.2.2",

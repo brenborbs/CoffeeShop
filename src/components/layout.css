@@ -6,7 +6,7 @@
   --mainDark: #000;
 }
 body {
-  font-size: 20px;
+  /* font-size: 20px; */
   background: var(--mainWhite);
   color: var(--mainDark);
   font-family: Lora, 'Times New Roman' , sans-serif !important;
@@ -93,5 +93,8 @@ h6 {
 }
 .lead {
   font-size: 28px !important;
+}
+#disqus_thread {
+  margin: 2em 15em 3em 15em;
 }
 

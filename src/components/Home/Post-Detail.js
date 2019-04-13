@@ -5,7 +5,11 @@ import Body from './Post-Body';
 import SEO from '../../components/seo';
 import { graphql } from 'gatsby';
 
+import { DiscussionEmbed } from 'disqus-react';
+import { disqusConfig } from '../../utils';
+
 export default ({ data }) => {
+
   const {
     author,
     slug,
@@ -13,7 +17,9 @@ export default ({ data }) => {
     title,
     metaDescription,
   } = data.post.frontmatter;
+
   const content = data.post.html;
+
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -25,6 +31,7 @@ export default ({ data }) => {
         description={metaDescription}
         fluidImage={data.post.frontmatter.postImage.childImageSharp.fluid}
         />
+       <DiscussionEmbed {...disqusConfig({ title, slug }) } />
     </Layout>
   )
 }
