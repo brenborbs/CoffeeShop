@@ -68,3 +68,15 @@ h6 {
 .footer {
   background: var(--mainDark);
 }
+.post-preview {
+  border-bottom: 3px solid var(--mainYellow) ;
+  margin: 1em;
+}
+.btn-blog {
+  color: #ffffff;
+  background-color: #37d980;
+  border-color: #37d980;
+  border-radius:0;
+  margin-bottom:10px
+}
+
