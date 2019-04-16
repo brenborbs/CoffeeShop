@@ -11,7 +11,7 @@ import Contact from "../components/Home/Contact";
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Home" keywords={[`coffee`, `traveler`, `shop`]} />
       <BackgroundSection
         img={data.img.childImageSharp.fluid}
         title="Anna Lou's Coffee Dream Shop"

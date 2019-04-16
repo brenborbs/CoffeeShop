@@ -6,7 +6,7 @@ export default (props) => (
         
     <React.Fragment>
                 <div className="post-preview" >
-                    <h1 style={{ color: 'brown' , fontSize: '36px' }} >{props.title}</h1>
+                    <h1 style={{ fontSize: '36px' }} >{props.title}</h1>
                      <Img 
                      fluid={props.fluidImage}
                      className="pull-left img-responsive thumb margin10 img-thumbnail"

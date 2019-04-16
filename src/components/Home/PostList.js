@@ -11,7 +11,7 @@ export default class PostList extends React.Component {
     const hasNext = this.props.data.posts.pageInfo.hasNextPage;
     return (
      <Layout>
-       <SEO title="Blog" keywords={[`gatsby`, `application`, `react`]} />
+       <SEO title="Blog" keywords={[`coffee`, `traveler`, `shop`]} />
        
         <div className="jumbotron" style={{ textAlign: 'center' }} >
           <h1 className="display-4">The Coffee Traveler</h1>
