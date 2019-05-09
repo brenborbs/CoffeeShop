@@ -6,7 +6,7 @@ module.exports = {
     title: `Anna Lou's Coffee Shop`,
     description: `Kick off your feet because this is the only coffee shop that you will need for the rest of your lives. Our products are freshly made and we do not compromise on our quality. Our happy workers says it all.`,
     author: `Brennon Borbon`
-  },
+  }, 
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
