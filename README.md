@@ -1,11 +1,5 @@
 ## This is an E-commerce Coffee Shop built on the following technologies:
 
-## App Screenshots
-
-<img src="app.png" alt="CoffeeShop">
-<img src="app2.png" alt="CoffeeShop">
-<img src="app3.png" alt="CoffeeShop">
-
 live site: https://annalous-coffeeshop.netlify.com/
 
 - Gatsby framework
@@ -14,6 +8,12 @@ live site: https://annalous-coffeeshop.netlify.com/
 - Uses Disqus to get engagement
 - Uses formspree.io for auto mailing submissions
 - Can create a blog using markdown
+
+## App Screenshots
+
+<img src="app.png" alt="CoffeeShop">
+<img src="app2.png" alt="CoffeeShop">
+<img src="app3.png" alt="CoffeeShop">
 
 Initial Commit:
 
