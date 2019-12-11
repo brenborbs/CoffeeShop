@@ -13,7 +13,7 @@ export default class Navbar extends Component {
         text: "home"
       },
       {
-        id: 2,
+        id: 2, 
         path: "/about",
         text: "about"
       },
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
         text: "blog"
       }
     ]
-  };
+  }; 
   navbarHandler = () => {
     this.state.navbarOpen
       ? this.setState({
